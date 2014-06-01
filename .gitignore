@@ -1,4 +1,6 @@
 RemoteSystemsTempFiles/
 Servers/
+pro-site/target/
+.metadata/
 *.log
 *~
