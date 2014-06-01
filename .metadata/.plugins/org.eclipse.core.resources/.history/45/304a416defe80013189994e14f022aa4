@@ -1,0 +1,17 @@
+package com.kk.proweb.controllers;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class MainController {
+	
+	@RequestMapping(value="/{clientId}/temphome")
+	public String defaultHome(@PathVariable("clientId") String clientId, Model model){
+		
+		
+		
+		return "asmtcHome";
+	}
+	
+
+}

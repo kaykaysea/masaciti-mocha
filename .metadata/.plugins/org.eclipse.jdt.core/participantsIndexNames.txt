@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+/home/kk/GIT_REPOS/masaciti-mocha/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3552640419.index
+/pro-site/src/main/resources
+/home/kk/GIT_REPOS/masaciti-mocha/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1920545155.index
+/pro-site/src/main/java

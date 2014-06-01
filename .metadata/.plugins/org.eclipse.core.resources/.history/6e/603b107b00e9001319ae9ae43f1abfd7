@@ -1,0 +1,17 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<html>  
+<head>  
+ 	<link rel="stylesheet" href="<c:url value="/resources/css/flipclock.css" />">
+<title>Default Home Page</title>  
+</head>  
+<body>  
+
+	<h3>ASMTC Home Page</h3>
+	<div class="your-clock"></div>
+	<canvas>
+		
+	
+	</canvas>
+</body>  
+</html>  
