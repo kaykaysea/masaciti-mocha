@@ -52,9 +52,17 @@
             <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>-->
+            	<div>
+            		<p class="lead">We are going live in:</p><br><br>
+                       	
+            	</div>
             	<div id="countdown" style="text-align: center;width: 320px;margin-left: 160px; ">
             		
             	
+            	</div><br><br>
+            	<div>
+            		<p class="lead">Keep Watching!</p>
+                       	
             	</div>
 			    <script src="<c:url value="/resources/js/countdown.js"/>"></script>            
             	<script type="application/javascript">
