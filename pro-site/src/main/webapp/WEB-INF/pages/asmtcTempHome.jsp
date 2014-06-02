@@ -53,7 +53,7 @@
               <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>-->
             	<div>
-            		<p class="lead">We are going live in:</p><br><br>
+            		<p class="lead">Going live in:</p><br><br>
                        	
             	</div>
             	<div id="countdown" style="text-align: center;width: 320px;margin-left: 160px; ">
@@ -106,13 +106,23 @@
 					
 						
 				</script>
-			
+				<script>
+				function qCwRandLink(min, max) {
+					var link;
+    if (min < 0) {
+       link =min + Math.random() * (Math.abs(min)+max);
+    }else {
+        link = 'http://www.theguardian.com/crosswords/quick/'+Math.floor(min + Math.random() * (max-min));
+        location.href=link;
+    }
+}
 				
+				</script>
           </div>
 
           <div class="mastfoot">
             <div class="inner">
-              <!--<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
+              <p>While you wait,why not solve a <a href=# onclick="javascript:qCwRandLink(9100, 13700)">Quick Crossword</a></p>
             </div>
           </div>
 
