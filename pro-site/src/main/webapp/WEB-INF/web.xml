@@ -12,7 +12,7 @@
   
     <servlet-mapping>
         <servlet-name>proweblog</servlet-name>
-        <url-pattern>/proweblog/*</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
    
   

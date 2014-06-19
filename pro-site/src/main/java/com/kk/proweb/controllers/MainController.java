@@ -21,5 +21,12 @@ public class MainController {
 		}
 	}
 	
+	@RequestMapping(value="/1")
+	public String getHomePage(){
+		
+		return "asmtcHome";
+		
+	}
+	
 
 }
