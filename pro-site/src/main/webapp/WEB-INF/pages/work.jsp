@@ -47,9 +47,9 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="<c:url value="/home"/>">Home</a></li>
+            <li><a href="<c:url value="/home"/>">Home</a></li>
             <li><a href="<c:url value="/education"/>">Education</a></li>
-            <li><a href="<c:url value="/work"/>">Work Experience</a></li>
+            <li class="active"><a href="<c:url value="/work"/>">Work Experience</a></li>
             <li><a href=#>Music</a></li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
@@ -66,56 +66,133 @@
     </div>
 
 	<!-- *****************************************************************************************************************
-	 HEADERWRAP
+	 BLUE WRAP
 	 ***************************************************************************************************************** -->
-	<div id="headerwrap">
+	<div id="blue">
 	    <div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-lg-offset-2" style="height: 50px;">
-				
-				</div>
-				<img src="<c:url value="/assets/img/aish_icon.jpg"/>"  width="150px;" height="150px"  class="img-circle img-responsive">
-				
-				<div class="col-lg-8 col-lg-offset-2">
-					
-					<h1>Aishwarya Rajagopal</h1>
-					<h4>MS,Computer Science, Georgia Tech</h4>
-								
-				</div>
-				<!--<div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="<c:url value="/assets/img/browser.png"/>" class="img-responsive">
-				</div>-->
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /headerwrap -->
+				<h3>Work Experience</h3>
+			</div>
+	    </div> 
+	</div>
 
-	<!-- *****************************************************************************************************************
-	 SERVICE LOGOS
-	 ***************************************************************************************************************** -->
-	 <div id="service">
-	 	<div class="container">
- 			<div class="row centered">
- 				<div class="col-md-4" >
- 					<i class="fa fa-graduation-cap"></i>
- 					<h4>Education</h4>
- 					<p style="min-height: 100px;">I completed my schooling from the prestigious <a href="http://en.wikipedia.org/wiki/P._S._Senior_Secondary_School">P.S.Senior Secondary school</a> and my B.Tech from <a href="http://www.ssn.edu.in/?page_id=124">SSN College of Engineering</a>, a premier technology school in India </p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-desktop"></i>
- 					<h4>Work Experience</h4>
- 					<p style="min-height: 100px;">I've been working for <a href="http://listertechnologies.com/">Lister Technologies</a>, Chennai for the past 4 years across various roles and providing solutions for various high profile clients in the emarketing and e-commerce space.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-music"></i>
- 					<h4>Music</h4>
- 					<p style="min-height: 100px;">I'm very passionate about music and I'm a trained <a href="http://en.wikipedia.org/wiki/Carnatic_music">Carnatic</a> vocalist and instrumentalist. I play the <a href="http://en.wikipedia.org/wiki/Veena_(instrument)">Veena</a></p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>		 				
-	 		</div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
+ <div class="container mt">
+	 	<div class="row">
+<!-- 		 	<div class="col-lg-10 col-lg-offset-1 centered"> -->
+<!-- 			 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> -->
+<!-- 				  Indicators -->
+<!-- 				  <ol class="carousel-indicators"> -->
+<!-- 				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> -->
+<!-- 				    <li data-target="#carousel-example-generic" data-slide-to="1"></li> -->
+<!-- 				    <li data-target="#carousel-example-generic" data-slide-to="2"></li> -->
+<!-- 				  </ol> -->
+				
+<!-- 				  Wrapper for slides -->
+<!-- 				  <div class="carousel-inner"> -->
+<!-- 				    <div class="item active"> -->
+<!-- 				      <img src="assets/img/portfolio/single01.jpg" alt=""> -->
+<!-- 				    </div> -->
+<!-- 				    <div class="item"> -->
+<!-- 				      <img src="assets/img/portfolio/single02.jpg" alt=""> -->
+<!-- 				    </div> -->
+<!-- 				    <div class="item"> -->
+<!-- 				      <img src="assets/img/portfolio/single03.jpg" alt=""> -->
+<!-- 				    </div> -->
+<!-- 				  </div> -->
+<!-- 				</div>/Carousel -->
+<!-- 		 	</div> -->
+		 	
+		 	<div class="col-lg-5 col-lg-offset-1">
+			 	<div class="spacing"></div>
+		 		<h4><b>RS-RI Integration</b></h4>
+		 		<p>The project is about migrating the data(in the order of terabytes) and email campaigns from RS and all its acquisitions to a leading US based ESP's data center in order to blast promotional and transactional campaigns from one source</p>
+		 		
+		 	</div>
+		 	
+		 	<div class="col-lg-4 col-lg-offset-1">
+			 	<div class="spacing"></div>
+		 		<h4>Project Details</h4>
+		 		<div class="hline"></div>
+		 		<p><b>Duration:</b> April 2014 - present</p>
+		 		<p><b>Role:</b>Tech Lead</p>
+		 		<p><b>Tech Stack:</b>Java/J2EE, Spring, Hibernate, Rabbit MQ, Oracle, PL/SQL, JQuery, Javascript</p>
+		 		<p><b>Client:</b>Rosetta Stone</p>
+		 		
+		 	</div>
+		 	
+		 	
+	 	</div> <!--/row -->
+	 	<div class="row">
+	 		<div class="col-lg-5 col-lg-offset-1">
+			 	<div class="spacing"></div>
+		 		<h4><b>E-merge</b></h4>
+		 		<p>An analytics tool on built on J2EE , Spring , Hibernate &amp; MySql that integrates ECommerce and Emarketing. It intelligently identifies E marketing campaign targets from the browse, purchase and demographic patters of customers of Ecommerce sites</p>
+		 		
+		 	</div>
+		 	
+		 	<div class="col-lg-4 col-lg-offset-1">
+			 	<div class="spacing"></div>
+		 		<h4>Project Details</h4>
+		 		<div class="hline"></div>
+		 		<p><b>Duration:</b> December 2013 - present</p>
+		 		<p><b>Role:</b>Tech Lead</p>
+		 		<p><b>Tech Stack:</b>Java/J2EE, Spring, Hibernate, Oracle, PL/SQL, JQuery, Javascript</p>
+		 	</div>
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	</div>
+	 	
+	 	<div class="row">
+	 		<div class="col-lg-5 col-lg-offset-1">
+			 	<div class="spacing"></div>
+		 		<h4><b>Online readiness Index</b></h4>
+		 		<p>An analytics tool designed to simulate real world readiness of an e-commerce portal. The system uses indicators with a coverage value and weight attached to it. Based on these values, a proprietary statistical algorithm predicts the readiness quotient of the site</p>
+		 		
+		 	</div>
+		 	
+		 	<div class="col-lg-4 col-lg-offset-1">
+			 	<div class="spacing"></div>
+		 		<h4>Project Details</h4>
+		 		<div class="hline"></div>
+		 		<p><b>Duration:</b> December 2013 - present</p>
+		 		<p><b>Role:</b>Tech Lead</p>
+		 		<p><b>Tech Stack:</b>Java/J2EE, Spring, Hibernate, Oracle, PL/SQL, JQuery, Javascript</p>
+		 	</div>
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	</div>
+	 	
+	 	<div class="row">
+	 		<div class="col-lg-5 col-lg-offset-1">
+			 	<div class="spacing"></div>
+		 		<h4><b>Data processing for US based digital marketing clients</b></h4>
+		 		<p>Oracle PL/SQL developer(Data cleansing, Import and export of huge data sets, Data segmentation, performance tuning, data mining and analytics)</p>
+		 		
+		 	</div>
+		 	
+		 	<div class="col-lg-4 col-lg-offset-1">
+			 	<div class="spacing"></div>
+		 		<h4>Project Details</h4>
+		 		<div class="hline"></div>
+		 		<p><b>Duration:</b> September 2010 - December 2013</p>
+		 		<p><b>Role:</b>Tech Lead</p>
+		 		<p><b>Tech Stack:</b>Java/J2EE, Spring, Hibernate, Oracle, PL/SQL, JQuery, Javascript</p>
+		 	</div>
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	</div>
+	 	
+	 	
+	 </div> <!--/container -->
 	 
 	
 	<!-- *****************************************************************************************************************

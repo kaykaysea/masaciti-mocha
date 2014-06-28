@@ -47,10 +47,10 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">HOME</a></li>
-            <li><a href=#>EDUCATION</a></li>
-            <li><a href=#>WORK EXPERIENCE</a></li>
-            <li><a href=#>MUSIC</a></li>
+            <li class="active"><a href="<c:url value="/home"/>">Home</a></li>
+            <li><a href="<c:url value="/education"/>">Education</a></li>
+            <li><a href="<c:url value="/work"/>">Work Experience</a></li>
+            <li><a href=#>Music</a></li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
               <ul class="dropdown-menu">

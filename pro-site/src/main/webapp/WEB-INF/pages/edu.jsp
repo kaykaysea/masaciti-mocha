@@ -47,8 +47,8 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="<c:url value="/home"/>">Home</a></li>
-            <li><a href="<c:url value="/education"/>">Education</a></li>
+            <li><a href="<c:url value="/home"/>">Home</a></li>
+            <li class="active"><a href="<c:url value="/education"/>">Education</a></li>
             <li><a href="<c:url value="/work"/>">Work Experience</a></li>
             <li><a href=#>Music</a></li>
             <!-- <li class="dropdown">
@@ -66,56 +66,24 @@
     </div>
 
 	<!-- *****************************************************************************************************************
-	 HEADERWRAP
+	 BLUE WRAP
 	 ***************************************************************************************************************** -->
-	<div id="headerwrap">
+	<div id="blue">
 	    <div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-lg-offset-2" style="height: 50px;">
-				
-				</div>
-				<img src="<c:url value="/assets/img/aish_icon.jpg"/>"  width="150px;" height="150px"  class="img-circle img-responsive">
-				
-				<div class="col-lg-8 col-lg-offset-2">
-					
-					<h1>Aishwarya Rajagopal</h1>
-					<h4>MS,Computer Science, Georgia Tech</h4>
-								
-				</div>
-				<!--<div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="<c:url value="/assets/img/browser.png"/>" class="img-responsive">
-				</div>-->
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /headerwrap -->
+				<h3>Education</h3>
+			</div>
+	    </div> 
+	</div>
 
-	<!-- *****************************************************************************************************************
-	 SERVICE LOGOS
-	 ***************************************************************************************************************** -->
-	 <div id="service">
-	 	<div class="container">
- 			<div class="row centered">
- 				<div class="col-md-4" >
- 					<i class="fa fa-graduation-cap"></i>
- 					<h4>Education</h4>
- 					<p style="min-height: 100px;">I completed my schooling from the prestigious <a href="http://en.wikipedia.org/wiki/P._S._Senior_Secondary_School">P.S.Senior Secondary school</a> and my B.Tech from <a href="http://www.ssn.edu.in/?page_id=124">SSN College of Engineering</a>, a premier technology school in India </p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-desktop"></i>
- 					<h4>Work Experience</h4>
- 					<p style="min-height: 100px;">I've been working for <a href="http://listertechnologies.com/">Lister Technologies</a>, Chennai for the past 4 years across various roles and providing solutions for various high profile clients in the emarketing and e-commerce space.</p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>
- 				<div class="col-md-4">
- 					<i class="fa fa-music"></i>
- 					<h4>Music</h4>
- 					<p style="min-height: 100px;">I'm very passionate about music and I'm a trained <a href="http://en.wikipedia.org/wiki/Carnatic_music">Carnatic</a> vocalist and instrumentalist. I play the <a href="http://en.wikipedia.org/wiki/Veena_(instrument)">Veena</a></p>
- 					<p><br/><a href="#" class="btn btn-theme">More Info</a></p>
- 				</div>		 				
-	 		</div>
-	 	</div><! --/container -->
-	 </div><! --/service -->
+ <div class="container mt">
+	 	
+		 	
+	 	
+	 	
+	 	
+	 	
+	 </div> <!--/container -->
 	 
 	
 	<!-- *****************************************************************************************************************
